@@ -127,7 +127,7 @@ $('.home-section span').click(function () {
   blur.classList.toggle('active');
   popup.classList.toggle('active');
 
-  for (let i = 0; i <= dataPlantes.length; i++) {
+  for (let i = 0, len = dataPlantes.length; i <= len; i++) {
     if (contenu === dataPlantes[i].nom) {
       //console.log("les noms sont identitiques avec " + dataPlantes[i].nom)
       contenuConseilsNom.innerHTML = dataPlantes[i].nomPlante
