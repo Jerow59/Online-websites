@@ -57,7 +57,7 @@ var popup = document.getElementById('popup');
 var fermer = document.getElementById('fermer');
 
 
-$('.home-section span').click(function () {
+$('.home-section .boutonConseils').click(function () {
   var contenu = String($(this).attr('id'));
   //console.log("le contenu id du bouton :" + contenu)
 
